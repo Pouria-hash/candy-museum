@@ -1,0 +1,56 @@
+body{
+    background-color: #ffddd2;
+    font-family: 'nunito', sans-serif;
+}
+#mainnavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+#mainnavbar .nav-link {
+    color: white;
+}
+#mainnavbar .navbar-brand {
+    color: #d90429;
+    font-size: 1.6rem;
+}
+#mainnavbar .nav-link:hover {
+    color: #d90429;
+}
+#headercandy span {
+    color: #d90429;
+}
+#headercandy h1 {
+    font-size: 3.5rem;
+    font-weight: 100;
+    color: white;
+}
+@media (max-width : 1200px) {
+    #headercandy h1 {
+        font-size: 2.5rem;
+    }
+}
+.abi h2 {
+    font-size: 2.5rem;
+    
+    color: #d90429 ;
+    font-weight: 100;
+}
+.abi p {
+    color: #e94a64;
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 2;
+}
+.milk {
+    margin-top: 100px;
+}
+.navbar.scrolled {
+    background: rgba(222, 192, 222, 0.575);
+    transition: background 500ms;
+}
+@media (max-width: 767px) {
+    .sky {
+        margin-top: 50px;
+    }
+}
